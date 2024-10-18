@@ -1,7 +1,9 @@
 version: '3.8'
 
 services:
-  project:
+  swap:
     build: .
     ports:
       - "8080:8080"
+    environment:
+      github.api.base-url: "http://host.docker.internal:3000"

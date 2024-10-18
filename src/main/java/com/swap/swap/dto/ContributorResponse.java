@@ -1,6 +1,7 @@
-package com.swap.project.models;
+package com.swap.swap.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.swap.swap.model.Contributor;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,14 +12,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Issue {
-
-    @JsonProperty("title")
-    private String title;
-
-    @JsonProperty("author")
-    private String author;
-
-    @JsonProperty("labels")
-    private List<String> labels;
+public class ContributorResponse {
+    @JsonProperty("contributors")
+    private List<Contributor> contributors;
 }

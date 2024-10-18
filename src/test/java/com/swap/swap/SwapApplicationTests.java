@@ -1,10 +1,11 @@
-package com.swap.project;
+package com.swap.swap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjectApplicationTests {
+class SwapApplicationTests {
+
 	@Test
 	void contextLoads() {
 	}

@@ -1,4 +1,4 @@
-package com.swap.project.models;
+package com.swap.swap.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Contributor {
-
     @JsonProperty("name")
     private String name;
 

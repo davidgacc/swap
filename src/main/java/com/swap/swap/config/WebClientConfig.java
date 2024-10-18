@@ -1,4 +1,4 @@
-package com.swap.project.config;
+package com.swap.swap.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

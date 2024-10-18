@@ -1,4 +1,4 @@
-package com.swap.project.dto;
+package com.swap.swap.dto;
 
 import lombok.Builder;
 import lombok.Data;

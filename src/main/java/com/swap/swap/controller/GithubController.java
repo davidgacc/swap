@@ -1,7 +1,7 @@
-package com.swap.project.controller;
+package com.swap.swap.controller;
 
-import com.swap.project.dto.GithubResponseDto;
-import com.swap.project.services.GithubService;
+import com.swap.swap.dto.GithubResponseDto;
+import com.swap.swap.services.GithubService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

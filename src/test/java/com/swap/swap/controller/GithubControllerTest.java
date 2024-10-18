@@ -1,12 +1,12 @@
-package com.swap.project.controller;
+package com.swap.swap.controller;
 
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
-import com.swap.project.dto.GithubResponseDto;
-import com.swap.project.models.Contributor;
-import com.swap.project.models.Issue;
-import com.swap.project.services.GithubService;
+import com.swap.swap.dto.GithubResponseDto;
+import com.swap.swap.model.Contributor;
+import com.swap.swap.model.Issue;
+import com.swap.swap.services.GithubService;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -15,7 +15,6 @@ import org.springframework.boot.test.autoconfigure.web.reactive.WebFluxTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import reactor.core.publisher.Mono;
-
 
 @WebFluxTest(GithubController.class)
 public class GithubControllerTest {
@@ -28,7 +27,6 @@ public class GithubControllerTest {
 
     @Autowired
     private WebTestClient webTestClient;
-
 
     @Test
     public void testRetrieveGitHubData() {

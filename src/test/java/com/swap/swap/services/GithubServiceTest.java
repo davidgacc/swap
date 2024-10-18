@@ -1,13 +1,13 @@
-package com.swap.project.services;
+package com.swap.swap.services;
 
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
-import com.swap.project.dto.ContributorResponse;
-import com.swap.project.dto.GithubResponseDto;
-import com.swap.project.dto.IssueResponse;
-import com.swap.project.models.Contributor;
-import com.swap.project.models.Issue;
+import com.swap.swap.dto.ContributorResponse;
+import com.swap.swap.dto.GithubResponseDto;
+import com.swap.swap.dto.IssueResponse;
+import com.swap.swap.model.Contributor;
+import com.swap.swap.model.Issue;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

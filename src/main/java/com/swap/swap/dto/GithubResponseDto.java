@@ -1,16 +1,16 @@
-package com.swap.project.dto;
+package com.swap.swap.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.swap.project.models.Contributor;
-import com.swap.project.models.Issue;
+import com.swap.swap.model.Contributor;
+import com.swap.swap.model.Issue;
 import java.util.List;
 import lombok.Builder;
 import lombok.Data;
 
+
 @Data
 @Builder
 public class GithubResponseDto {
-
     @JsonProperty("user")
     private String user;
 
